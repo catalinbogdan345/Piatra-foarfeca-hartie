@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game">
+        <div class="player1">
+            <p class="text">Player one choose:</p>
+            <div class="options-player1">
+                <img height="50px" width="50px" src="/pfc/images/stone.png" alt="stone" class="player1-stone p1" onclick="theFunctionforPlayerOne('stone')">
+                <img height="50px" width="50px" src="/pfc/images/scissor.png" alt="scissor" class="player1-scissor p1" onclick="theFunctionforPlayerOne('scissor')">
+                <img height="50px" width="50px" src="/pfc/images/paper.png" alt="paper" class="player1-paper p1" onclick="theFunctionforPlayerOne('paper')">
+            </div>
+            <div class="first-player-option"></div>
+            <button class="finish">I'm done</button>
+        </div>
+        <div class="player2">
+            <p class="text">player two choose:</p>
+            <button class="finishTwo">I'm done</button>
+            <div class="second-player-option"></div>
+            <div class="options-player2">
+                <img height="50px" width="50px" src="/pfc/images/stone.png" alt="stone" class="player2-stone p2" onclick="theFunctionforPlayerTwo('stone')">
+                <img height="50px" width="50px" src="/pfc/images/scissor.png" alt="scissor" class="player2-scissor p2" onclick="theFunctionforPlayerTwo('scissor')">
+                <img height="50px" width="50px" src="/pfc/images/paper.png" alt="paper" class="player3-paper p2" onclick="theFunctionforPlayerTwo('paper')">
+            </div>
+        </div>
+    </div>
+    <div class="winner-container">
+        <div class="winner">
+        </div>
+    </div>
+    <script src="./8-aprilie.js"></script>
+</body>
+</html>
